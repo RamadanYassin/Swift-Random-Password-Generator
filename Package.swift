@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "psdgen",
     platforms: [
-        .macOS(.v15)
+        .macOS()
     ],
     dependencies: [
         .package(url: "https://github.com/apple/swift-argument-parser.git", from: "1.2.0"),
